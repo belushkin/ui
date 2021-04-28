@@ -1,0 +1,36 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: 'Playfair Display', serif;
+}
+
+.container {
+  height: 100vh;
+}
+
+.container .img {
+  background: url("../b1.jpeg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.container .content {
+  position: absolute;
+  z-index: 1;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.container .content h1 {
+  font-size: 4rem;
+  position: absolute;
+}
+/*# sourceMappingURL=main.css.map */
